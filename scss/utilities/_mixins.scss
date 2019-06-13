@@ -1,0 +1,9 @@
+
+@mixin bg-colors($map) {
+@each $button, $color in $map {
+  &--#{$button} {
+    background-color: $color;
+     @extend %btn;
+  }
+}
+}

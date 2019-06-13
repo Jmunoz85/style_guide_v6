@@ -1,28 +1,60 @@
-//Variables
-//Colors
-$bg-color:	#E4E4E4;
-$primary-color: #83F3D3;
-$secondary-color: #54DDFB;
-$font-color: red;
+//=====================================================
+// Global Configurations
+//=====================================================
 
-$btn-colors:(
-'default':#83F3D3,
-'success':#6DBB83,
-'error':#D7777E,
-'warning':#F57455,
-'info':	#8C7EB4,
+// Font Stacks
+
+$font-url--google: 'http://fonts.googleapis.com/css?family=Nunito:100,,300,400,500,700';
+
+$font-stack--primary: 'Nunito, sans-serif, Helvetica Arial';
+$font-stack--secondary: 'sans-serif, Helvetica Arial';
+
+// Font Weights
+
+$font-weight--thin: 100;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--bold: 500;
+$font-weight--ultra-bold: 700;
+
+//Text
+
+
+// Descriptive Base Colors
+
+//Font Text
+$white: #fff;
+$black: #0b0b0b;
+$grey : #797eb3;
+
+//Buttons
+$aqua-marine: #7EF6D5;
+$malibu     : #4EE1F9;
+$emerald    : #5CC887;
+$deep-blush : #E27583;
+$apricot    : #EF836C;
+$blue-bell  : #9F94CC;
+
+//Color Usage
+
+$primary-color: $aqua-marine;
+$secondary-color: $malibu;
+
+//Maps
+$button-colors: (
+default: $malibu,
+success: $emerald,
+error  : $deep-blush,
+warning: $apricot,
+info   : $blue-bell
 );
 
-$gc-colors:(
-"--12":#85E3CD,
-"--8":#F49B89,
-"--7":#ECA0A5,
-"--6":#3CABD0,
-"--5":#87D8A4,
-"--4":#7FE4FF,
-"--3":#DEB1EC,
+$grid-colors: (
+"--12": #84E6CD,
+"--8" : #EC9FA7,
+"--7" : #EC9FA7,
+"--6" : #3DAAD0,
+"--5" : #88D6A8,
+"--4" : #7CE9FE,
+"--3" : #E1B1EE
 );
-
-//Font Stacks
-$font-stack1:  "Times New Roman", Times, serif;
-$font-stack2:  Arial, Helvetica, sans-serif;

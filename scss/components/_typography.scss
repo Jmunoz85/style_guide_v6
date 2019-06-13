@@ -1,0 +1,12 @@
+.headline {
+  &--secondary {
+    font-family: $font-stack--primary;
+    margin-left: 20px;
+    color: $grey;
+  }
+}
+.container {
+  color: $grey;
+  font-family: $font-stack--primary;
+  margin: 0 auto;
+}
