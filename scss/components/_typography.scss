@@ -1,12 +1,24 @@
-.headline {
+
+.card {
+  p {
+    text-align: justify;
+    padding: 19px;
+    line-height: 1.4;
+    font-size: 13px;
+    margin-top: 0;
+  }
+}
+.headline--primary {
+  color: $primary-color;
+  font-size: 27px;
   &--secondary {
     font-family: $font-stack--primary;
     margin-left: 20px;
     color: $grey;
+    font-weight: $font-weight--thin;
   }
 }
-.container {
-  color: $grey;
-  font-family: $font-stack--primary;
-  margin: 0 auto;
+.blockquote {
+  padding-left: 5px;
+  border-left: 7px $primary-color solid;
 }

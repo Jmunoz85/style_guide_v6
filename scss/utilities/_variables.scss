@@ -4,9 +4,9 @@
 
 // Font Stacks
 
-$font-url--google: 'http://fonts.googleapis.com/css?family=Nunito:100,,300,400,500,700';
+$font-url--google: 'http://fonts.googleapis.com/css?family=sans-serif:100,,300,400,500,700';
 
-$font-stack--primary: 'Nunito, sans-serif, Helvetica Arial';
+$font-stack--primary: 'sans-serif, Helvetica Arial';
 $font-stack--secondary: 'sans-serif, Helvetica Arial';
 
 // Font Weights
@@ -17,7 +17,8 @@ $font-weight--medium: 400;
 $font-weight--bold: 500;
 $font-weight--ultra-bold: 700;
 
-//Text
+//width
+$max-width: 1000px;
 
 
 // Descriptive Base Colors

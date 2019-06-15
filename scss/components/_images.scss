@@ -1,4 +1,14 @@
 .img--logo {
+  padding-top: 20px;
   display: block;
   margin: 0 auto;
+}
+.img--frame {
+max-width: 100%;
+padding: 10px;
+border: solid 2px lightgray;
+}
+.img--avatar {
+  margin: 10px auto;
+  padding: 50px;
 }

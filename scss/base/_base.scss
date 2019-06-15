@@ -1,11 +1,8 @@
 * {
   box-sizing: border-box;
 }
-.grid__row {
-  max-width: 100%;
-  text-align: center;
+.container {
+  color: $grey;
+  font-family: lato;
+  margin: 0 auto;
 }
-
-a {
-  text-decoration: none;
-  }

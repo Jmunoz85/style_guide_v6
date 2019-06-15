@@ -66,3 +66,7 @@
     }
   }
   }
+  #grid ~ .grid__row .grid__col{
+  @include grid($grid_colors);
+
+}

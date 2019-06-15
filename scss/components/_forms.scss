@@ -1,0 +1,17 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form__label--hidden {
+  display: none;
+}
+.form__input {
+  padding: 18px;
+  margin: 7px 0;
+  height: 18px;
+  width: 100%;
+  color: $primary-color;
+  border: none;
+  border-bottom: solid 5px $primary-color;
+}

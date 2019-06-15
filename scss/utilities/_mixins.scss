@@ -1,9 +1,41 @@
 
+// Colors
 @mixin bg-colors($map) {
 @each $button, $color in $map {
   &--#{$button} {
     background-color: $color;
      @extend %btn;
   }
+ }
 }
+
+// Grid
+@mixin grid($map) {
+	@each $col, $color in $map {
+		&#{$col} {
+				background-color:#{$color};
+				@extend %border;
+	}
+ }
+}
+
+// Center
+@mixin center {
+  width: 90%;
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right:  auto;
+}
+
+//BEM Selectors
+@mixin e($element) {
+  &_#{$element} {
+    @content;
+  }
+}
+
+@mixin m($modifier) {
+  #{$modifier} {
+    @content;
+  }
 }
