@@ -1,11 +1,13 @@
-%nav {
+.nav {
   display: block;
   text-align: center;
   list-style-type: none;
   padding: 0;
-  &nav-item {
-    @extend %nav-item;
 }
+  .nav__item {
+    font-size: 14px;
+    font-family: sans-serif;
+  }
   a {
     line-height: 3.5em;
     text-decoration: none;
@@ -18,4 +20,3 @@
       text-align: center;
     }
   }
-}
