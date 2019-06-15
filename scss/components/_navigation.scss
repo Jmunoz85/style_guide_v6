@@ -3,9 +3,8 @@
   text-align: center;
   list-style-type: none;
   padding: 0;
-}
-&-nav-item {
-  @extend %nav-item;
+  &nav-item {
+    @extend %nav-item;
 }
   a {
     line-height: 3.5em;
@@ -19,3 +18,4 @@
       text-align: center;
     }
   }
+}
