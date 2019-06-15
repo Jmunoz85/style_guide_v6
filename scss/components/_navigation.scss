@@ -4,9 +4,8 @@
   list-style-type: none;
   padding: 0;
 }
-  .nav__item {
-    font-size: 14px;
-    font-family: sans-serif;
+  %nav__item {
+    @extend %nav__item;
   }
   a {
     line-height: 3.5em;
