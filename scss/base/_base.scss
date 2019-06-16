@@ -6,3 +6,15 @@
   font-family: $font-stack--primary;
   margin: 0 auto;
 }
+a {
+  line-height: 3.5em;
+  text-decoration: none;
+  color: $grey;
+  &:hover {
+    padding: 0.8em 7.5em;
+    border-radius: 6px;
+    background-color: $primary-color;
+    color: $white;
+    margin: 0 auto;
+  }
+}
