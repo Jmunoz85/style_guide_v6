@@ -1,7 +1,6 @@
 
 .form {
-  display: flex;
-  flex-direction: column;
+  @include flexy($dir: column, $just: center);
 }
 .form__label--hidden {
   display: none;

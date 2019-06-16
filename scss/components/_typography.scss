@@ -7,18 +7,15 @@
     font-size: 13px;
     margin-top: 0;
   }
-}
-.headline--primary {
-  color: $primary-color;
-  font-size: 27px;
-  &--secondary {
-    font-family: $font-stack--primary;
-    margin-left: 20px;
-    color: $grey;
-    font-weight: $font-weight--thin;
+  .headline--primary {
+    @extend %hdl--prim;
   }
 }
+.headline--secondary {
+  @extend %hdl--sec;
+  }
 .blockquote {
+  margin-bottom: 30px;
   padding-left: 5px;
   border-left: 7px $primary-color solid;
 }

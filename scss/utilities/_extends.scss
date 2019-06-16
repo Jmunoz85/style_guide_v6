@@ -16,11 +16,12 @@
     border-radius: 10px;
     font-size: 14px;
     padding: 2%;
+    text-align: center;
 };
 
 //Nav Items
-%nav-item-disp {
-  font-size: 14px;
+%nav-item {
+  font-size: 18px;
   font-family: sans-serif;
 }
 
@@ -31,9 +32,12 @@
 }
 
 // Headlines
-%headline--primary  {
+%hdl--prim  {
     color: $primary-color;
-    font-size: 14px;
+    font-size: 30px;
+  }
+  %hdl--sec {
+      margin-left: 20px;
       font-family: $font-stack--primary;
       color: $grey;
       font-weight: $font-weight--thin;

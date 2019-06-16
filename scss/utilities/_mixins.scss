@@ -26,6 +26,18 @@
   margin-left: auto;
   margin-right:  auto;
 }
+// Create a Flex Container
+@mixin flexy (
+$disp: flex,
+$dir: null,
+$wrap: null,
+$just: null)
+{
+  display: flex;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
+}
 
 //BEM Selectors
 @mixin e($element) {
@@ -37,5 +49,19 @@
 @mixin m($modifier) {
   #{$modifier} {
     @content;
+  }
+}
+
+// Media Queries
+@mixin mq($break) {
+  @if $break == "small" {
+    @media (min-width: $brkpoint-sm) and (max-width: $brkpoint-med) {
+      @content;
+    }
+  }
+  @else if $break == "medium" {
+    @media (min-width: $brkpoint-med) {
+    @content; 
+    }
   }
 }

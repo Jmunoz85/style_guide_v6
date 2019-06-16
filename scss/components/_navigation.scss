@@ -3,10 +3,10 @@
   text-align: center;
   list-style-type: none;
   padding: 0;
+.nav__item {
+  @extend %nav-item;
+ }
 }
-  %nav__item {
-    @extend %nav__item;
-  }
   a {
     line-height: 3.5em;
     text-decoration: none;
