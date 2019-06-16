@@ -67,6 +67,17 @@
   }
   }
   #grid ~ .grid__row .grid__col{
-  @include grid($grid_colors);
-
+  @include grid($grid_colors) {
+  }
+}
+.grid__col--12 {
+  @include desktop {
+    @include flexy(flex, row,);
+    width: 15%;
+  }
+}
+.centered {
+  @include desktop {
+    margin: 0 auto;
+  }
 }

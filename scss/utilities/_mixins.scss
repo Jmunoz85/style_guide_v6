@@ -15,6 +15,7 @@
 		&#{$col} {
 				background-color:#{$color};
 				@extend %border;
+        @content;
 	}
  }
 }
@@ -37,6 +38,7 @@ $just: null)
   flex-direction: $dir;
   flex-wrap: $wrap;
   justify-content: $just;
+  @content
 }
 
 //BEM Selectors

@@ -5,9 +5,10 @@
   color: $grey;
   font-family: $font-stack--primary;
   margin: 0 auto;
+  max-width: $max-width;
 }
 a {
-  line-height: 3.5em;
+  line-height: 3.5;
   text-decoration: none;
   color: $grey;
   &:hover {

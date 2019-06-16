@@ -9,6 +9,8 @@ padding: 10px;
 border: solid 2px lightgray;
 }
 .img--avatar {
+  display: flex;
+  justify-content: flex-end;
   margin: 10px auto;
   padding: 15px;
 }

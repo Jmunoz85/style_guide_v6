@@ -18,21 +18,21 @@
   text-align: center;
 }
 
-.nav .nav__item {
-  text-align: center;
+.nav--nav__item {
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: "sans-serif, Helvetica Arial";
 }
 
 .card .headline--primary {
+  padding-left: 25px;
   color: #67E5C4;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .headline--secondary {
   margin-left: 20px;
   font-family: "sans-serif, Helvetica Arial";
-  color: #797eb3;
+  color: #9D9EA4;
   font-weight: 100;
 }
 
@@ -380,15 +380,16 @@ template {
 }
 
 .container {
-  color: #797eb3;
+  color: #9D9EA4;
   font-family: "sans-serif, Helvetica Arial";
   margin: 0 auto;
+  max-width: 1400px;
 }
 
 a {
-  line-height: 3.5em;
+  line-height: 3.5;
   text-decoration: none;
-  color: #797eb3;
+  color: #9D9EA4;
 }
 a:hover {
   padding: 0.8em 7.5em;
@@ -557,6 +558,20 @@ a:hover {
   background-color: #E1B1EE;
 }
 
+@media (min-width: 768px) {
+  .grid__col--12 {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  .centered {
+    margin: 0 auto;
+  }
+}
+
 .btn--default {
   background-color: #4EE1F9;
 }
@@ -606,6 +621,8 @@ a:hover {
 }
 
 .img--avatar {
+  display: flex;
+  justify-content: flex-end;
   margin: 10px auto;
   padding: 15px;
 }
@@ -621,20 +638,25 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-basis: auto;
   }
 }
 
 .card p {
   text-align: justify;
   padding: 19px;
-  line-height: 1.4;
-  font-size: 13px;
+  line-height: 1.7;
+  font-size: 17px;
   margin-top: 0;
+  color: #9D9EA4;
+}
+.card p a {
+  line-height: 1.7;
 }
 .blockquote {
+  font-style: italic;
+  font-size: 21px;
   margin-bottom: 30px;
-  padding-left: 5px;
+  padding-left: 9px;
   border-left: 7px #67E5C4 solid;
 }
 

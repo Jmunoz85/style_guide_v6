@@ -11,6 +11,11 @@
     border: none;
     align-items: center;
 }
+%btn-media {
+   display: flex;
+		width: 15%;
+		margin: 0% 2.2%;
+    }
 
 %border{
     border-radius: 10px;
@@ -22,19 +27,20 @@
 //Nav Items
 %nav-item {
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: $font-stack--primary;
 }
 
 %nav-item-link {
-  line-height: 3.5em;
+  font-family: $font-stack--primary;
   text-decoration: none;
   color: $grey;
 }
 
 // Headlines
 %hdl--prim  {
+  padding-left: 25px;
     color: $primary-color;
-    font-size: 30px;
+    font-size: 32px;
   }
   %hdl--sec {
       margin-left: 20px;
