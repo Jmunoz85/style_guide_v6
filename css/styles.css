@@ -652,9 +652,6 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .nav .nav__item {
-    width: 20%;
-  }
 }
 
 .card p {
