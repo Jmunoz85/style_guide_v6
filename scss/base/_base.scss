@@ -14,7 +14,7 @@ a {
   &:hover {  padding: 0.8em 7.5em;
     border-radius: 6px;
     background-color: $primary-color;
-    color: $white;
+    color: $grey;
     margin: 0 auto;
     @include desktop {
       padding: 0.4em 3.75em;
