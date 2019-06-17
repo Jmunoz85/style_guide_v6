@@ -540,7 +540,7 @@ a:hover {
   background-color: #84E6CD;
 }
 #grid ~ .grid__row .grid__col--8 {
-  background-color: #EC9FA7;
+  background-color: #F5A186;
 }
 #grid ~ .grid__row .grid__col--7 {
   background-color: #EC9FA7;
@@ -556,14 +556,6 @@ a:hover {
 }
 #grid ~ .grid__row .grid__col--3 {
   background-color: #E1B1EE;
-}
-
-@media (min-width: 768px) {
-  .grid__col--12 {
-    display: flex;
-    flex-direction: row;
-    width: 15%;
-  }
 }
 
 @media (min-width: 768px) {
@@ -588,6 +580,18 @@ a:hover {
   background-color: #9F94CC;
 }
 
+@media (min-width: 768px) {
+  .grid__col--12 .btn--info,
+.grid__col--12 .btn--error,
+.grid__col--12 .btn--default,
+.grid__col--12 .btn--warning,
+.grid__col--12 .btn--success {
+    display: inline;
+    width: 15%;
+    margin-left: 27px;
+  }
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -602,8 +606,8 @@ a:hover {
   padding: 18px;
   margin: 7px 0;
   height: 18px;
-  width: 100%;
-  color: #67E5C4;
+  width: 75%;
+  margin: auto;
   border: none;
   border-bottom: solid 5px #67E5C4;
 }
@@ -619,10 +623,14 @@ a:hover {
   padding: 10px;
   border: solid 2px lightgray;
 }
+@media (min-width: 768px) {
+  .img--frame {
+    margin-left: 35px;
+  }
+}
 
 .img--avatar {
   display: flex;
-  justify-content: flex-end;
   margin: 10px auto;
   padding: 15px;
 }
@@ -637,7 +645,8 @@ a:hover {
   .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 0 auto;
   }
 }
 
@@ -651,6 +660,7 @@ a:hover {
 }
 .card p a {
   line-height: 1.7;
+  color: #67E5C4;
 }
 .blockquote {
   font-style: italic;

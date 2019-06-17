@@ -7,10 +7,12 @@
 max-width: 100%;
 padding: 10px;
 border: solid 2px lightgray;
+@include desktop {
+  margin-left: 35px;
+}
 }
 .img--avatar {
   display: flex;
-  justify-content: flex-end;
   margin: 10px auto;
   padding: 15px;
 }
