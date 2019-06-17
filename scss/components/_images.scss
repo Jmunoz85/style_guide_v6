@@ -4,14 +4,13 @@
   margin: 0 auto;
 }
 .img--frame {
+display: block;
+margin: $centered;
 max-width: 100%;
 padding: 10px;
 border: solid 2px lightgray;
-@include desktop {
-  display: block;
-  margin: $centered;
 }
-}
+
 .img--avatar {
   display: block;
   margin: $centered;

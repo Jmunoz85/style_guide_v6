@@ -379,9 +379,14 @@ template {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
   font-size: 1em;
+  list-style-type: none;
 }
 
 p {
@@ -668,12 +673,6 @@ p {
   padding: 10px;
   border: solid 2px lightgray;
 }
-@media (min-width: 768px) {
-  .img--frame {
-    display: block;
-    margin: 0 auto;
-  }
-}
 
 .img--avatar {
   display: block;
@@ -683,7 +682,6 @@ p {
 .nav {
   display: block;
   text-align: center;
-  list-style-type: none;
   padding: 0;
 }
 .nav a {
