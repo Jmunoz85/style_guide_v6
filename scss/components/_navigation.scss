@@ -7,8 +7,6 @@
   @extend %nav-item;
  }
 @include desktop {
-    @include flexy(flex, row, null, space-evenly){
-      margin: 0 auto;
-    }
+    @include flexy(flex, row, null, space-evenly);
  }
 }

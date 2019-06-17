@@ -398,6 +398,11 @@ a:hover {
   color: #fff;
   margin: 0 auto;
 }
+@media (min-width: 768px) {
+  a:hover {
+    padding: 0.4em 3.75em;
+  }
+}
 
 .grid__row {
   padding: 1em 10px;
@@ -646,7 +651,9 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0 auto;
+  }
+  .nav .nav__item {
+    width: 20%;
   }
 }
 
