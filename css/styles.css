@@ -377,12 +377,8 @@ template {
 
 * {
   box-sizing: border-box;
-}
-
-.container {
   color: #9D9EA4;
   font-family: "sans-serif, Helvetica Arial";
-  margin: 0 auto;
   max-width: 1400px;
 }
 
