@@ -669,12 +669,15 @@ p {
 }
 
 .img--frame {
+  display: block;
+  margin: 0 auto;
   max-width: 100%;
   padding: 10px;
   border: solid 2px lightgray;
 }
 
 .img--avatar {
+  padding-bottom: 18px;
   display: block;
   margin: 0 auto;
 }
