@@ -377,27 +377,17 @@ template {
 
 * {
   box-sizing: border-box;
-  color: #9D9EA4;
-  font-family: "sans-serif, Helvetica Arial";
-  max-width: 1400px;
 }
 
 a {
-  line-height: 3.5;
   text-decoration: none;
+  font-size: 1em;
+}
+
+p {
   color: #9D9EA4;
-}
-a:hover {
-  padding: 0.8em 7.5em;
-  border-radius: 6px;
-  background-color: #67E5C4;
-  color: #fff;
-  margin: 0 auto;
-}
-@media (min-width: 768px) {
-  a:hover {
-    padding: 0.6em 0.75em;
-  }
+  font-family: "sans-serif, Helvetica Arial";
+  max-width: 1400px;
 }
 
 .grid__row {
@@ -537,26 +527,74 @@ a:hover {
   }
 }
 
+.container {
+  color: #9D9EA4;
+  font-family: "sans-serif, Helvetica Arial";
+  max-width: 1400px;
+}
+
 #grid ~ .grid__row .grid__col--12 {
   background-color: #84E6CD;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #grid ~ .grid__row .grid__col--12 {
+    text-align: center;
+  }
 }
 #grid ~ .grid__row .grid__col--8 {
   background-color: #F5A186;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #grid ~ .grid__row .grid__col--8 {
+    text-align: center;
+  }
 }
 #grid ~ .grid__row .grid__col--7 {
   background-color: #EC9FA7;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #grid ~ .grid__row .grid__col--7 {
+    text-align: center;
+  }
 }
 #grid ~ .grid__row .grid__col--6 {
   background-color: #3DAAD0;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #grid ~ .grid__row .grid__col--6 {
+    text-align: center;
+  }
 }
 #grid ~ .grid__row .grid__col--5 {
   background-color: #88D6A8;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #grid ~ .grid__row .grid__col--5 {
+    text-align: center;
+  }
 }
 #grid ~ .grid__row .grid__col--4 {
   background-color: #7CE9FE;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #grid ~ .grid__row .grid__col--4 {
+    text-align: center;
+  }
 }
 #grid ~ .grid__row .grid__col--3 {
   background-color: #E1B1EE;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #grid ~ .grid__row .grid__col--3 {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
@@ -582,14 +620,20 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+  .grid__col--12 {
+    display: inline-flex;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
   .grid__col--12 .btn--info,
 .grid__col--12 .btn--error,
 .grid__col--12 .btn--default,
 .grid__col--12 .btn--warning,
 .grid__col--12 .btn--success {
-    display: inline;
+    display: inline-block;
     width: 15%;
-    margin-left: 27px;
+    margin-left: 25px;
   }
 }
 
@@ -626,14 +670,14 @@ a:hover {
 }
 @media (min-width: 768px) {
   .img--frame {
-    margin-left: 35px;
+    display: block;
+    margin: 0 auto;
   }
 }
 
 .img--avatar {
-  display: flex;
-  margin: 10px auto;
-  padding: 15px;
+  display: block;
+  margin: 0 auto;
 }
 
 .nav {
@@ -641,6 +685,21 @@ a:hover {
   text-align: center;
   list-style-type: none;
   padding: 0;
+}
+.nav a {
+  line-height: 3.5;
+  color: #9D9EA4;
+}
+.nav a:hover {
+  padding: 0.8em 7.5em;
+  border-radius: 6px;
+  background-color: #67E5C4;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .nav a:hover {
+    padding: 0.6em 0.75em;
+  }
 }
 @media (min-width: 768px) {
   .nav {
@@ -656,7 +715,6 @@ a:hover {
   line-height: 1.7;
   font-size: 17px;
   margin-top: 0;
-  color: #9D9EA4;
 }
 .card p a {
   line-height: 1.7;

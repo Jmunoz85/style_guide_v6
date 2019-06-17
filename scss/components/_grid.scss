@@ -66,13 +66,21 @@
     }
   }
   }
+  .container {
+    color: $grey;
+    font-family: $font-stack--primary;
+    max-width: $max-width;
+  }
   #grid ~ .grid__row .grid__col{
   @include grid($grid_colors) {
+    text-align: left;
+    @include desktop {
+      text-align: center;
+    }
   }
 }
-
 .centered {
   @include desktop {
-    margin: 0 auto;
+    margin: $centered;
   }
 }

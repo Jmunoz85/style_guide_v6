@@ -8,11 +8,12 @@ max-width: 100%;
 padding: 10px;
 border: solid 2px lightgray;
 @include desktop {
-  margin-left: 35px;
+  display: block;
+  margin: $centered;
 }
 }
 .img--avatar {
-  display: flex;
-  margin: 10px auto;
-  padding: 15px;
+  display: block;
+  margin: $centered;
+;
 }

@@ -1,21 +1,13 @@
 * {
   box-sizing: border-box;
+
+}
+a {
+  text-decoration: none;
+  font-size: 1em;
+}
+p {
   color: $grey;
   font-family: $font-stack--primary;
   max-width: $max-width;
-}
-
-a {
-  line-height: 3.5;
-  text-decoration: none;
-  color: $grey;
-  &:hover {  padding: 0.8em 7.5em;
-    border-radius: 6px;
-    background-color: $primary-color;
-    color: $white;
-    margin: 0 auto;
-    @include desktop {
-      padding: 0.6em .75em;
-    }
-  }
 }

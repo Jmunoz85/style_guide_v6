@@ -6,6 +6,18 @@
 &--nav__item {
   @extend %nav-item;
  }
+ a {
+   line-height: 3.5;
+   color: $grey;
+   &:hover {  padding: 0.8em 7.5em;
+     border-radius: 6px;
+     background-color: $primary-color;
+     color: $white;
+     @include desktop {
+       padding: 0.6em .75em;
+     }
+   }
+ }
 @include desktop {
     @include flexy(flex, row, null, space-evenly);
  }

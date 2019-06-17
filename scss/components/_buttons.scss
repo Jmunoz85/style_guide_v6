@@ -3,15 +3,19 @@
   @include bg-colors($button-colors);
 }
 .grid__col--12 {
+  @include desktop {
+    display: inline-flex;
+    text-align: center;
+  }
  .btn--info,
  .btn--error,
  .btn--default,
  .btn--warning,
  .btn--success {
   @include desktop {
-     display: inline;
-     width: 15%;
-     margin-left: 27px;
+  display: inline-block;
+  width: 15%;
+  margin-left: 25px;
   }
  }
 }
