@@ -5,8 +5,6 @@
 .grid__col--12 {
   @include desktop {
     display: inline-flex;
-    text-align: center;
-  }
  .btn--info,
  .btn--error,
  .btn--default,
@@ -18,4 +16,5 @@
   margin-left: 25px;
   }
  }
+}
 }

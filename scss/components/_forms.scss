@@ -5,11 +5,11 @@
 .form__label--hidden {
   display: none;
 }
-.form__input {
+.form__input { 
   padding: 18px;
   margin: 7px 0;
   height: 18px;
-  width: 75%;
+  max-width: 75%;
   margin: auto;
   border: none;
   border-bottom: solid 5px $primary-color;
