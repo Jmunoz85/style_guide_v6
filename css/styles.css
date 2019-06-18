@@ -1,5 +1,5 @@
-.btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
-  width: 85%;
+.btn, .btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
+  width: 60%;
   height: 30px;
   display: block;
   margin: 30px auto;
@@ -625,7 +625,7 @@ p {
 
 @media (min-width: 768px) {
   .grid__col--12 {
-    display: inline-flex;
+    display: flex;
   }
 }
 @media (min-width: 768px) and (min-width: 768px) {
@@ -636,7 +636,6 @@ p {
 .grid__col--12 .btn--success {
     display: inline-block;
     width: 15%;
-    margin-left: 25px;
   }
 }
 
