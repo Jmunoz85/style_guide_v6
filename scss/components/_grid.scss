@@ -73,8 +73,10 @@
   }
   #grid ~ .grid__row .grid__col{
   @include grid($grid_colors) {
-    text-align: center;
+    text-align: left;
+    color: $darkgray;
     @include desktop {
+      color: $darkgray;
       text-align: center;
     }
   }
