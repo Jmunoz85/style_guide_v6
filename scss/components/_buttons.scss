@@ -6,6 +6,7 @@
 .grid__col--12 {
   @include desktop {
     display: flex;
+    justify-content: center;
  .btn--info,
  .btn--error,
  .btn--default,
